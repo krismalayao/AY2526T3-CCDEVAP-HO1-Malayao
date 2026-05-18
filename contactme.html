@@ -22,19 +22,30 @@
                 <p>0915-500-0064</p>
 
                 <div class="contact-button">
-                    <a href="https://google.com">Facebook</a>
-                    <a href="https://google.com">LinkedIn</a>
-                    <a href="https://google.com">GitHub</a>
+                    <a href="https://www.facebook.com/kristopher.malayao.6">Facebook</a>
+                    <a href="https://www.linkedin.com/in/kristopher-malayao/">LinkedIn</a>
+                    <a href="https://github.com/krismalayao">GitHub</a>
                 </div>
 
                 <div class="contact-email-here">
-                    <h3>Message me thru email:</h3><hr>
-                    <form action="mailto:example@hehe.test" method="POST">
-                        <input type="textarea" />
+                    <form action="https://formspree.io/f/mykvybrd" method="POST">
+                        <label for="message">Message me thru email:</label><br />
+                        <textarea id="message" name="Message:" rows="5" cols="60" required></textarea><br />
+                        
+                        <label for="name">Name:</label>
+                        <input type="text" id="From" name="Name of Sender:" required />
+
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="Email of Sender:" required /><br />
+                        
                         <button type="submit">Send Email</button>
                     </form>
                 </div>
             </div>
         </main>
+
+        <footer>
+            <p>&copy; 2026 MostlyKris. All rights reserved.</p>
+        </footer>
     </body>
 </html>
